@@ -1,0 +1,11 @@
+#root {
+  max-width: 1920px;
+  margin: 0 auto;
+  
+  text-align: center;
+}
+
+.pasteles {
+  display: flex;
+ justify-content: center;
+}
