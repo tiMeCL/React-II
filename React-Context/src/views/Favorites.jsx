@@ -1,16 +1,11 @@
-// Gallery.js (o cualquier otro componente donde necesites acceder a photos)
-import React, { useState, useEffect } from "react";
 import { useMyContext } from "../context/PhotosContext";
 import IconHeart from "../components/IconHeart";
 
 const Favorites = () => {
   const {
-    photos,
-    setPhotos,
     photosfavoritas,
     setPhotosfavoritas,
-    isFavorite,
-    setisFavorite,
+    isFavorite
   } = useMyContext();
 
   const removephoto = (id) => {
